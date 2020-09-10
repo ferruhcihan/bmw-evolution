@@ -26,37 +26,33 @@ html, body {
 }
 
 .img2 {
-    background-image: url(./images/1st.jpg);
-    
+    background-image: url(./images/1st.jpg);    
 }
 
 .img3 {
-    background-image: url(./images/2nd.jpg);
-    
+    background-image: url(./images/2nd.jpg);    
 }
 
 .img4 {
-    background-image: url(./images/3rd.jpg);
-    
+    background-image: url(./images/3rd.jpg);    
 }
 
 .img5 {
-    background-image: url(./images/4th.jpg);
-    
+    background-image: url(./images/4th.jpg);    
 }
 
 .img6 {
-    background-image: url(./images/5th.jpg);
-    
+    background-image: url(./images/5th.jpg);    
 }
+
 .img7 {
-    background-image: url(./images/6th.jpg);
-    
+    background-image: url(./images/6th.jpg);    
 }
+
 .img8 {
-    background-image: url(./images/7th.jpg);
-    
+    background-image: url(./images/7th.jpg);    
 }
+
 .img9 {
     background-image: url(./images/bmwlast.png);
     min-height: 100%;
@@ -92,6 +88,7 @@ html, body {
 
 .border.border2 {
     top: 0;
+    border: 10px solid #111111;
 }
 
 #first {
@@ -99,7 +96,7 @@ html, body {
 }
 
 #second {
-    border: 10px solid black;
+    border: 10px solid #111111;
 }
 
 #third {
@@ -122,9 +119,8 @@ html, body {
     border: 10px solid #114A90;
 }
 
-
 @media(max-width:1000px) {
-
+    
     .img1, .img2, .img3, 
     .img4, .img5, .img6,
     .img7, .img8, .img9 {
