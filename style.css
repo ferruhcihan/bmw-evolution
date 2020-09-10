@@ -17,7 +17,7 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 80%;
+    min-height: 90%;
 }
 
 .img1 {
@@ -26,44 +26,40 @@ html, body {
 }
 
 .img2 {
-    background-image: url(./images/1stgen.png);
+    background-image: url(./images/1st.jpg);
     
 }
 
 .img3 {
-    background-image: url(./images/2ndgen.png);
+    background-image: url(./images/2nd.jpg);
     
 }
 
 .img4 {
-    background-image: url(./images/3rdgen.png);
+    background-image: url(./images/3rd.jpg);
     
 }
 
 .img5 {
-    background-image: url(./images/4thgen.png);
+    background-image: url(./images/4th.jpg);
     
 }
 
 .img6 {
-    background-image: url(./images/5thgen.png);
+    background-image: url(./images/5th.jpg);
     
 }
 .img7 {
-    background-image: url(./images/6thgen.png);
+    background-image: url(./images/6th.jpg);
     
 }
 .img8 {
-    background-image: url(./images/7thgen.png);
+    background-image: url(./images/7th.jpg);
     
 }
 .img9 {
     background-image: url(./images/bmwlast.png);
-    
-}
-
-.imgtext {
-    color: black;
+    min-height: 100%;
 }
 
 .section {
@@ -71,34 +67,31 @@ html, body {
     padding: 20px 80px;
     background-color: white;
     color: black;
-    position: relative;
-    top: 0;
-    /* overflow: auto; */
     border: 10px solid yellow;
 }
 
 .section ul li {
     display: inline;
     margin: 50px;
-    font-size: 50px;
+    font-size: 35px;
     line-height: 1.5;
 }
-
-/* img {
-    display: block;
-    width: 100%;
-} */
 
 .border {
     position: absolute;
     width: 100%;
     text-align: center;
     top: 45%;
-    padding: 70px;
+    padding: 35px;
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
-    font-size: 100px;
+    font-size: 70px;
     text-transform: uppercase;
+    line-height: 1;
+}
+
+.border.border2 {
+    top: 0;
 }
 
 #first {
@@ -109,16 +102,45 @@ html, body {
     border: 10px solid black;
 }
 
+#third {
+    border: 10px solid #F8E458;
+}
+
+#fourth {
+    border: 10px solid #D4DDEA;
+}
+
+#fifth {
+    border: 10px solid #B0AFB2;
+}
+
+#sixth {
+    border: 10px solid #AF3719;
+}
+
+#seventh {
+    border: 10px solid #114A90;
+}
+
+
 @media(max-width:1000px) {
 
-    .img1, .img2, .img3 {
+    .img1, .img2, .img3, 
+    .img4, .img5, .img6,
+    .img7, .img8, .img9 {
         background-attachment: scroll;
+        min-height: 40%;
     }
 
     .section ul li {
         display: inline-block;
-        margin: 30px;
+        margin: 20px;
+        font-size: 20px;
+    }
+
+    .border {
         font-size: 30px;
+        padding: 10px;
     }
 
 }
