@@ -1,0 +1,124 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #f4f4f4;
+    overflow-x: hidden;
+}
+
+.img1, .img2, .img3, 
+.img4, .img5, .img6,
+.img7, .img8, .img9 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 80%;
+}
+
+.img1 {
+    background-image: url(./images/bmwfirst.png);
+    min-height: 100%;
+}
+
+.img2 {
+    background-image: url(./images/1stgen.png);
+    
+}
+
+.img3 {
+    background-image: url(./images/2ndgen.png);
+    
+}
+
+.img4 {
+    background-image: url(./images/3rdgen.png);
+    
+}
+
+.img5 {
+    background-image: url(./images/4thgen.png);
+    
+}
+
+.img6 {
+    background-image: url(./images/5thgen.png);
+    
+}
+.img7 {
+    background-image: url(./images/6thgen.png);
+    
+}
+.img8 {
+    background-image: url(./images/7thgen.png);
+    
+}
+.img9 {
+    background-image: url(./images/bmwlast.png);
+    
+}
+
+.imgtext {
+    color: black;
+}
+
+.section {
+    text-align: center;
+    padding: 20px 80px;
+    background-color: white;
+    color: black;
+    position: relative;
+    top: 0;
+    /* overflow: auto; */
+    border: 10px solid yellow;
+}
+
+.section ul li {
+    display: inline;
+    margin: 50px;
+    font-size: 50px;
+    line-height: 1.5;
+}
+
+/* img {
+    display: block;
+    width: 100%;
+} */
+
+.border {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 45%;
+    padding: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+#first {
+    border: 10px solid #E43A29;
+}
+
+#second {
+    border: 10px solid black;
+}
+
+@media(max-width:1000px) {
+
+    .img1, .img2, .img3 {
+        background-attachment: scroll;
+    }
+
+    .section ul li {
+        display: inline-block;
+        margin: 30px;
+        font-size: 30px;
+    }
+
+}
